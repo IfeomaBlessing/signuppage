@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Simple Sign Up Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+       <div class="signup-box" id="signup-box">
+        <h2>CREATE AN ACCOUNT</h2>
+
+        <div class="input-field">
+            <input type="text" placeholder="Full Name" required>
+            <input type="Email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="Confirm Password" required>
+
+            <p>Already Have An Account? <a href="#" id="signin-link">Sign In</a></p>
+        </div>      
+
+
+      
+
+        <button id="signup-btn">SIGN UP</button>
+       
+       </div>
+    
+                <!-- SIGN IN PAGE  -->
+
+                <div class="signin-box" id="signin-box">
+                <h2>LOGIN</h2>
+        
+                <div class="input-field">
+                   
+                    <input type="Email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                  
+                </div>   
+
+                <div class="remember">
+                    <input type="checkbox">
+                    <span>Remember Me</span>
+                </div>
+        
+                <button id="signin-btn">SIGN IN</button>
+                <p>Don't Have An Account? <a href="#" id="signup-link">Sign Up</a></span> </p>
+               </div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

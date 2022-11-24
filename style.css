@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(to top right, red,green,
+    indigo,brown);
+}
+.signup-box, .signin-box{
+    max-width: 350px;
+    width: 100%;
+    box-shadow:2px 2px 4px -1px rgba(0,0,0,0.4),
+    -2px -2px 4px -1px rgba(0,0,0,0.4);
+    padding: 20px;
+    border-radius:10px;
+}
+.signin-box{
+    display: none;
+}
+h2{
+    margin-bottom: 40px;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+.input-field {
+    margin:20px 0;
+}
+.input-field input,button {
+    width: 100%;
+    padding:10px;
+    margin-top:12px;
+    border-radius:10px;
+    background: transparent;
+    border:none;
+    outline: none;
+    box-shadow:2px 2px 4px 1px rgba(0,0,0,0.7),
+    -2px -2px 4px 1px rgba(0,0,0,0.2);
+}
+
+.input-field  input::placeholder{
+    color:wheat;
+}
+.input-field  input:focus{
+    color:yellowgreen;
+}
+.signup-box p{
+    margin-top:10px;
+    margin-left:12px;
+}
+a{
+    text-decoration:none;
+    color:wheat;
+}
+button{
+    background:gainsboro;
+    font-weight:bold;
+    font-size:18px;
+    color:blueviolet;
+    word-spacing:5px;
+}
+button:hover, a:hover{
+    cursor: pointer;
+    color:brown;
+    background:black;
+    
+}
+.remember{
+    display: flex;
+    align-items: center;
+    margin-bottom:10px;
+    margin-left:12px;
+}
+.remember span{
+    margin-left:5px;
+}
+.remember input{
+    background:red;
+}
+.signin-box p{
+    margin-top:12px;
+    text-align: center;
+}
